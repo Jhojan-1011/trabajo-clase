@@ -1,0 +1,137 @@
+ 
+.seccion1 {
+    background-image: url(../assets/bgHeader.png) ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center -120px;
+}
+.seccion1 h1{
+    color: #ff8940;
+    font-size: 100px;
+    padding-top: 40px;
+}
+.seccion1 p{
+    font-size: 40px;
+    margin-top: -20px;
+}
+.seccion1 button{
+    background-color: #ff8940;
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+    padding: 18px 40px;
+    margin-top: 190px;
+    font-size: 20px;
+}
+
+.seccion2{
+   display: flex; 
+   justify-content: space-around;
+   margin-top: 190px;
+}
+
+.seccion2 h3{
+    color: #ff8940;
+    font-size: 57px;
+}
+.seccion2 p{
+    color:rgb(56, 45, 45);
+    font-size: 25px;
+}
+
+.seccion2 button{
+    background-color: #ff8940;
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+    padding: 18px 40px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.seccion3{
+    display: flex; 
+   justify-content: space-around;
+   margin: 190px;
+}
+.seccion3 h4{
+color: #ff8940;
+font-size: 40px;
+}
+.seccion3 p{
+    color:rgb(56, 45, 45);
+    font-size: 25px;
+}
+.seccion3 button{
+    background-color: #ff8940;
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+    padding: 18px 40px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+.seccion4{
+    background-image: url(../assets/bgDown.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    padding: 100px 70px;
+
+}
+
+.seccion4 h2{
+    color: #ff8940;
+    font-size: 45px;
+    padding-top: 100px;
+}
+.seccion4 p{
+    color:rgb(56, 45, 45);
+    font-size: 24px; 
+}
+.todo{
+    margin: 295px;
+}
+.seccion4 button{
+    background-color: #ff8940;
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+    padding: 18px 40px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.seccion5{
+    background-color:#ff8940 ;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    padding-top: 30px;
+}
+
+.seccion5 p{
+    margin: 40px;
+}
+.seccion5 li{
+    text-decoration: none;
+    list-style:none;
+}
+
+footer{
+    background-color: #ff8940;
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+    font-size: 12px;
+    box-shadow: 10px 10px 30px 0px #ff6200;
+    }
