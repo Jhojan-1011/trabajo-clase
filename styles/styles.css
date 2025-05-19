@@ -32,6 +32,7 @@
    display: flex; 
    justify-content: space-around;
    margin-top: 190px;
+   gap: 20px;
 }
 
 .seccion2 h3{
@@ -142,35 +143,79 @@ footer{
 
 
     @media (max-width:1279px){
+    
+    .seccion1{
+    height: 101vh;
+    width: 150%;
+   }
    .seccion1 h1{
-    font-size: 45px;
+    font-size: 83px;
+    margin-top: 1px;
    }
 
    .seccion1 p{
-    font-size: 22px;
+    font-size: 30px;
     margin-top: -25px;
    }
 
    .seccion1 button{
-    padding: 14px 29px;
+    padding: 18px 29px;
     margin-top: 80px;
-    font-size: 17px;
+    font-size: 18px;
    }
+
 
 
 
    .seccion2{
     margin-top: 126px;
    }
-   .seccion2 h3{
-    font-size: 32px;
+
+   .seccion2 div{
+    margin-left: 113px;
    }
+
+   .seccion2 img{
+    margin-left: 450px;
+   }
+   
+
+   .seccion2 h3{
+    font-size: 25px;
+   }
+
    .seccion2 p{
     font-size: 17px;
+    
    }
    .seccion2 button{
     padding: 14px 29px;
     font-size: 17px;
+   }
+
+
+
+
+   .seccion3 h4{
+    font-size: 32px;
+   }
+
+   .seccion3{
+    justify-content: space-around;
+   }
+
+   .seccion3 p{
+    font-size: 17px ;
+   }
+
+   .seccion3 button{
+    padding: 14px 29px;
+    font-size: 17px;
+   }
+   .seccion3 img{
+    width: 400px;
+    height: 650px;
+    margin-right: 500px;
    }
 
    
